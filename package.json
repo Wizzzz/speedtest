@@ -1,0 +1,33 @@
+{
+	"name": "typescript",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.ts",
+	"scripts": {
+		"postinstall": "husky install",
+		"build": "tsc --build",
+		"prettier": "prettier --config ./.prettierrc --write \"**/*.{js,json,md,ts}\"",
+		"prettier:check": "prettier --check --config ./.prettierrc \"**/*.{js,json,md,ts}\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wizzzz/typescript.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/wizzzz/typescript/issues"
+	},
+	"homepage": "https://github.com/wizzzz/typescript#readme",
+	"devDependencies": {
+		"@types/node": "^20.2.3",
+		"husky": "^8.0.3",
+		"prettier": "^2.8.8",
+		"typescript": "^5.0.4"
+	},
+	"dependencies": {
+		"chalk": "^5.2.0",
+		"dotenv": "^16.0.3"
+	}
+}
